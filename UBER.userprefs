@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A3F718E6-1CD3-40A0-9385-863BCEAE7A6A}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="UBER/Products.cs" Line="30" Column="8" />
+      <File FileName="UBER/PaymentActivity.cs" Line="97" Column="54" />
+      <File FileName="UBER/Resources/Menu/MyMenu.xml" Line="14" Column="40" />
+      <File FileName="UBER/stallPage.cs" Line="1" Column="1" />
+      <File FileName="UBER/OrderActivity.cs" Line="72" Column="87" />
+      <File FileName="UBER/Models/Login.cs" Line="49" Column="18" />
+      <File FileName="UBER/TempActivity.cs" Line="2" Column="14" />
+      <File FileName="UBER/The_MainActivity.cs" Line="33" Column="12" />
+      <File FileName="UBER/Cart.cs" Line="80" Column="65" />
+      <File FileName="UBER/Registration.cs" Line="8" Column="18" />
+      <File FileName="UBER/Update.cs" Line="66" Column="82" />
+      <File FileName="UBER/maps_Test.cs" Line="27" Column="6" />
+      <File FileName="UBER/TrackOrder.cs" Line="60" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/reversidesoftwaresolution/Desktop/Doctor/UBER/Resources/layout/nnew.axml" relfile="UBER/Resources/layout/nnew.axml" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UBER AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MultiItemStartupConfigurations />
+</Properties>

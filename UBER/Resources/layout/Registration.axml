@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="@drawable/maybebackground">
+    <TextView
+        android:text="First Name:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:id="@+id/txtfirstName" />
+    <TextView
+        android:text="Last Name:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:id="@+id/txtLastName" />
+    <TextView
+        android:text="Mobile:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_height="40.0dp"
+        android:id="@+id/txtMobile" />
+    <TextView
+        android:text="Email:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_height="wrap_content"
+        android:id="@+id/textemail" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:id="@+id/txtEmail" />
+    <TextView
+        android:text="Password:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:id="@+id/txtPassword" />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:id="@+id/btnRegist"
+        android:foregroundTint="#ff00e676"
+        android:drawableTint="#ff64dd17"
+        android:backgroundTint="#ff64dd17" />
+</LinearLayout>

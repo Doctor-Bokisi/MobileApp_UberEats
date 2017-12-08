@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBER", "UBER\UBER.csproj", "{A3F718E6-1CD3-40A0-9385-863BCEAE7A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBER.UITests", "UBER.UITests\UBER.UITests.csproj", "{6CE01C47-3580-4835-A683-3DC2C469FF5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3F718E6-1CD3-40A0-9385-863BCEAE7A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F718E6-1CD3-40A0-9385-863BCEAE7A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F718E6-1CD3-40A0-9385-863BCEAE7A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F718E6-1CD3-40A0-9385-863BCEAE7A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE01C47-3580-4835-A683-3DC2C469FF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE01C47-3580-4835-A683-3DC2C469FF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE01C47-3580-4835-A683-3DC2C469FF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE01C47-3580-4835-A683-3DC2C469FF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

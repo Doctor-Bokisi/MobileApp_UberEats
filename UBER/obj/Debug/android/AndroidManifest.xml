@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.UBER">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="10" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="Registration" android:name="md55eceab257c6e3be537b232dbf37346a8.Registration" />
+    <activity android:label="Update" android:name="md55eceab257c6e3be537b232dbf37346a8.Update" />
+    <activity android:label="Login" android:name="md55eceab257c6e3be537b232dbf37346a8.Login" />
+    <activity android:label="Main Page" android:name="md55eceab257c6e3be537b232dbf37346a8.TempActivity" />
+    <activity android:label="View Restaurant" android:theme="@android:style/Theme.Holo" android:name="md55eceab257c6e3be537b232dbf37346a8.The_MainActivity" />
+    <activity android:label="Home" android:name="md55eceab257c6e3be537b232dbf37346a8.stallPage" />
+    <activity android:label="Products" android:name="md55eceab257c6e3be537b232dbf37346a8.Products" />
+    <activity android:label="Cart" android:name="md55eceab257c6e3be537b232dbf37346a8.Cart" />
+    <activity android:label="PaymentActivity" android:name="md55eceab257c6e3be537b232dbf37346a8.PaymentActivity" />
+    <activity android:label="OrderActivity" android:name="md55eceab257c6e3be537b232dbf37346a8.OrderActivity" />
+    <activity android:label="maps_Test" android:name="md55eceab257c6e3be537b232dbf37346a8.maps_Test" />
+    <activity android:label="TrackOrder" android:name="md55eceab257c6e3be537b232dbf37346a8.TrackOrder">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.UBER.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.UBER" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+</manifest>

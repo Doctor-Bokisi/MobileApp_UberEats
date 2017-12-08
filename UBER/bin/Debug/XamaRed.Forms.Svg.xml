@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XamaRed.Forms.Svg</name>
+    </assembly>
+    <members>
+        <member name="T:XamaRed.Forms.Svg.SvgAlignment">
+            <summary>
+            Describes the position of the SVG from its parent canvas
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgAlignment.Start">
+            <summary>
+            The SVG will be aligned at the start (left or top) of its canvas, if applicable
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgAlignment.Middle">
+            <summary>
+            The SVG will be aligned at the middle of its canvas, if applicable
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgAlignment.End">
+            <summary>
+            The SVG will be aligned at the end (right or bottom) of its canvas, if applicable
+            </summary>
+        </member>
+        <member name="T:XamaRed.Forms.Svg.SvgStretch">
+            <summary>
+            Stretch options for a svg, relative to its parent
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgStretch.None">
+            <summary>
+            Does not stretch the SVG
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgStretch.Uniform">
+            <summary>
+            Uniform stretch as much as possible while keeping the SVG fully visible
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgStretch.UniformToFill">
+            <summary>
+            Uniform stretch as much as possible until the parent is fully filled with the SVG. Some parts of the SVG will probably be hidden
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgStretch.Fill">
+            <summary>
+            Stretch the SVG so it matches its parent width and height. The SVG will probably look distorted.
+            </summary>
+        </member>
+        <member name="T:XamaRed.Forms.Svg.SvgView">
+            <summary>
+            Control which displays a simple SVG image
+            </summary>
+        </member>
+        <member name="P:XamaRed.Forms.Svg.SvgView.ResourceIdsPrefix">
+            <summary>
+            Gets or sets the global prefix which will be added before every <see cref="T:XamaRed.Forms.Svg.SvgView"/> provided <see cref="P:XamaRed.Forms.Svg.SvgView.ResourceId"/>
+            </summary>
+        </member>
+        <member name="P:XamaRed.Forms.Svg.SvgView.MainPclAssembly">
+            <summary>
+            Gets or sets the PCL assembly containing the SVGs to load
+            <remarks>If not set, it will use the application PCL assembly</remarks>
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgView.ResourceIdProperty">
+            <summary>
+            <see cref="P:XamaRed.Forms.Svg.SvgView.ResourceId"/> bindable property declaration
+            </summary>
+        </member>
+        <member name="P:XamaRed.Forms.Svg.SvgView.ResourceId">
+            <summary>
+            Gets or sets the path of the SVG resource file
+            <remarks>
+            The SVG file must be included in a projet as an EmbeddedResource (can be set via the files properties).
+            Other modes, such as downloading a remote SVG, are not supported
+            The resource id must be composed of alpha characters and dots only. It should not contain slashes.
+            </remarks>
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgView.StretchProperty">
+            <summary>
+            <see cref="P:XamaRed.Forms.Svg.SvgView.Stretch"/> property declaration
+            </summary>
+        </member>
+        <member name="P:XamaRed.Forms.Svg.SvgView.Stretch">
+            <summary>
+            Gets or sets the SVG <see cref="T:XamaRed.Forms.Svg.SvgStretch"/> mode
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgView.HorizontalAligmentProperty">
+            <summary>
+            <see cref="P:XamaRed.Forms.Svg.SvgView.HorizontalAligment"/> property declaration
+            </summary>
+        </member>
+        <member name="P:XamaRed.Forms.Svg.SvgView.HorizontalAligment">
+            <summary>
+            Gets or sets the SVG horizontal alignment
+            </summary>
+        </member>
+        <member name="F:XamaRed.Forms.Svg.SvgView.VerticalAligmentProperty">
+            <summary>
+            <see cref="P:XamaRed.Forms.Svg.SvgView.VerticalAligment"/> property declaration
+            </summary>
+        </member>
+        <member name="P:XamaRed.Forms.Svg.SvgView.VerticalAligment">
+            <summary>
+            Gets or sets the SVG Vertical alignment
+            </summary>
+        </member>
+        <member name="M:XamaRed.Forms.Svg.SvgView.Init">
+            <summary>
+            Does nothing, but might be useful to prevent dependencies removal
+            </summary>
+        </member>
+    </members>
+</doc>
